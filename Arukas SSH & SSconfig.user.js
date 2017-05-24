@@ -2,10 +2,11 @@
 // @name         Arukas SSH & SSconfig
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Gnerate shadowsocks QRcode
+// @description  Gnerate shadowsocks QRcode in arukas docker
 // @author       ztnuaa
 // @match        https://app.arukas.io/apps/*
 // @grant        GM_xmlhttpRequest
+// @homepage     https://github.com/TimoLin/ssgo_arukas
 // ==/UserScript==
 
 //Refrence
