@@ -38,4 +38,3 @@ http://shadowsocks.org/en/config/quick-guide.html
 https://github.com/shadowsocks/shadowsocks/wiki/Generate-QR-Code-for-Android-or-iOS-Clients  
 [3]调用Google Chart API生成二维码图片，参考了下面的二维码在线生成网站的createCode函数，可在该网页elements中找到 
 http://qr.lingbaoboy.com/  
-
