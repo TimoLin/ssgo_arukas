@@ -5,7 +5,7 @@
 # Arukas SSH & SSconfig
 Arukas docker shadowsocks油猴脚本  
 <b>功能：一键生成以下内容</b>  
-[1]ssh登录命令  
+      [1]ssh登录命令  
       [2]终端生成二维码命令  
       [3]shadowsocks配置文件  
 <b>适用：使用两个端口的容器，其中22端口作为ssh登录，8989端口作为shadowsocks server</b>  
@@ -13,9 +13,9 @@ Arukas docker shadowsocks油猴脚本
       http://example.jp-tokyo-07.arukascloud.io (8989/tcp)  
 在页面左上角会有一个按钮“点我生成二维码”，点击即可  
 注意：该脚本匹配的是app.arukas.io/apps/*，因此在下面的页面进入app后，需要手动刷新一下才会显示该按钮  
-![](https://raw.githubusercontent.com/timolin/ssgo_arukas/pictures/io.jpg)  
+![](https://github.com/TimoLin/ssgo_arukas/raw/master/pictures/io.png)  
 刷新以显示该按钮    
-![原始页面](https://raw.githubusercontent.com/timolin/ssgo_arukas/pictures/origin.jpg)   
+![原始页面](https://github.com/TimoLin/ssgo_arukas/raw/master/pictures/origin.png)  
 ## ssh login command:
 <pre>ssh root@example.jp-tokyo-07.arukascloud.io -p 31708  </pre>
 ## Linux终端命令生成shadowsocks配置文件二维码
@@ -24,7 +24,7 @@ Arukas docker shadowsocks油猴脚本
 <pre> pip install qrcode</pre>
 ## shadowsocks config file:
 <pre>{"server":"example.arukascloud.io", "server_port":31314, "local port":1080, "password":"your_password", "timeout":600, "method":"aes-256-cfb" }</pre>  
-![点击后的页面](https://raw.githubusercontent.com/timolin/ssgo_arukas/pictures/config.jpg)  
+![点击后的页面](https://github.com/TimoLin/ssgo_arukas/raw/master/pictures/config.png)  
 
 # Todo:
 1.加入按钮后可能会导致页面在刷新时加载变慢，待优化  
