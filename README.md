@@ -3,6 +3,9 @@
 基于秋水逸冰shadowsocks_go一键脚本，仅仅修改了默认密码，删除了一些等待用户确认的命令  
 在网页端新建centos app后，运行以下命令配置自动配置shadowsocks server
 <pre>yum install wget -y && wget --no-check-certificate https://raw.githubusercontent.com/timolin/ssgo_arukas/master/ssgo.sh && bash ssgo.sh</pre>
+# do.user.js
+DigitalOcean ssr二维码一键生成脚本  
+大概其和Arukas的差不多
 # Arukas SSH & SSconfig
 Arukas docker shadowsocks油猴脚本  
 <b>功能：一键生成以下内容</b>  
